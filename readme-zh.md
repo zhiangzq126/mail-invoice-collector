@@ -2,6 +2,9 @@
 
 [English](README.md) | **简体中文**
 
+[![最近提交](https://img.shields.io/github/last-commit/zhiangzq126/mail-invoice-collector/main)](https://github.com/zhiangzq126/mail-invoice-collector/commits/main/)
+[![GitHub 问题](https://img.shields.io/github/issues/zhiangzq126/mail-invoice-collector)](https://github.com/zhiangzq126/mail-invoice-collector/issues)
+
 一条命令扫描 IMAP 邮箱指定文件夹，下载 PDF 附件与正文链接里的电子发票（诺诺/百望 SPA、51 发票中间页、税局直下链接），解析发票号/金额/购销方/日期，按发票号去重后追加进一张汇总 Excel。增量运行，重复票自动跳过。
 
 这是一个 **Agent 技能（Skill）**，也可作为普通 Python 命令行工具直接使用。技能主流程与内部实现分别见 [SKILL.md](SKILL.md) 与 [reference.md](reference.md)；本 README 面向"第一次上手"的用户，讲清楚怎么装、怎么配、怎么跑。

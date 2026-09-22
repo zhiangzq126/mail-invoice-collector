@@ -2,6 +2,9 @@
 
 **English** | [简体中文](readme-zh.md)
 
+[![Last commit](https://img.shields.io/github/last-commit/zhiangzq126/mail-invoice-collector/main)](https://github.com/zhiangzq126/mail-invoice-collector/commits/main/)
+[![GitHub issues](https://img.shields.io/github/issues/zhiangzq126/mail-invoice-collector)](https://github.com/zhiangzq126/mail-invoice-collector/issues)
+
 Scan a configured IMAP folder with a single command, download PDF attachments and invoices linked in email bodies—including Nuonuo/Baiwang single-page applications, 51 Invoice intermediary pages, and direct tax-authority download links—and extract invoice numbers, amounts, buyers, sellers, and dates. Results are deduplicated by invoice number and appended to one Excel summary. Runs are incremental, and duplicate invoices are skipped automatically.
 
 This is an **agent skill**, but it can also be used directly as a Python command-line tool. See [SKILL.md](SKILL.md) for the agent workflow and [reference.md](reference.md) for implementation details (both in Chinese). This README is a first-time user's guide to installation, configuration, and operation.
